@@ -8733,14 +8733,43 @@ h1#cart-title:before {
 /*Alterações mobile - Sanders */
 
 @media all and (max-width: 1000px) and (min-width: 320px) {
-  .home .owl-buttons {
-    display: none;
+  header .ico_busca {
+    background: url(ico_busca.png) 10px center no-repeat;
   }
-  .home .owl-pagination {
-    display: block!important;
-    position: relative;
-    top: -55px;
-    right: 0;
-    text-align: center;
+  header .ico_busca {
+    background: none!important;
   }
+  .busca input[type=button] {
+    background: url("http://i.imgur.com/oIX3r5F.jpg") center center no-repeat;
+  }
+  .home #busca-veiculo div#busca-medida {
+    padding: 0px 0 0;
+  }
+  .home .blc-filtro-pneus {
+    color: #ffff!important;
+  }
+  #largura_select, #perfil_select, #aro_select, #marca_select {
+   display: block;
+width: 100%;
+padding: .5rem .75rem;
+font-size: 1rem;
+line-height: 1.25;
+color: #464a4c;
+background-color: #fff;
+background-image: none;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+border: 1px solid rgba(0,0,0,.15);
+border-radius: .25rem;
+-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  }
+button#btn_busca_veiculo  {
+top:30px!important;
+margin: 0 auto;
+text-align: center;
+}
 }
