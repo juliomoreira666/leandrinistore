@@ -8772,4 +8772,27 @@ top:30px!important;
 margin: 0 auto;
 text-align: center;
 }
+.home #pager a {
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+	width: 18px;
+  border-radius: 50%;
+	height:18px;
+  background: #767676;
+  color: transparent;
+  font-size: 20px;
+  z-index: 9;
+  padding: 5px;
+}
+
+.home #pager .activeSlide {
+  background: #000;
+}
+
+.home #pager {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
 }
