@@ -6723,7 +6723,7 @@ body.produto li.thumb-video div img {
 }
 
 body.produto.quick-view .zoomPup, body.produto.quick-view .zoomWindow, body.produto.quick-view .zoomWrapper {
-  display: none!important
+  display: none;
 }
 
 @media screen and (max-width:1024px) {
